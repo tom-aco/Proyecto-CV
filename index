@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Tomás Agustín Couto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav>
+                <a class="logo" href="/">Tomás Agustín Couto</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="areanombre" id="inicio">
+                <div class="nombre">
+                    <h1>Couto Tomás Agustín</h1>
+                    <h2>
+                        <p>Bachiller de Derecho</p>
+                        <p>Estudiante de Abogacía con especialización en Derecho Privado</p>
+                        <p>Estudiante de Desarrollo Web Full Stack</p>
+                    </h2>
+                </div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+        <article>
+            <div class="section reveal" id="experiencia">
+                <h3 id="k">Experiencia</h3>
+                <div class="container-experiencia">
+                    <div class="content-izquierda">
+                        <h2>Estudio BCN CyS S.R.L</h2>
+                        <p>2016 - 2017</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Estudio de cobranza</h2>
+                        <p>Referencia: Walter Vieites - Pablo Santoro</p>
+                    </div>
+                </div>
+                <div class="container-experiencia">
+                    <div class="content-izquierda">
+                        <h2>Estudio Couto & Asoc</h2>
+                        <p>2018 - act</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Estudio jurídico enfocado en Derecho Civil</h2>
+                        <p>Auxiliar administrativo jurídico</p>
+                        <p>Manejo y redacción de archivos</p>
+                        <p>Manipulación de documentos y contratos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section reveal" id="educacion">
+                <h3>Educación</h3>
+                <div class="container-educacion">
+                    <div class="content-izquierda">
+                        <h2>Liceo n°5 "Pascual Guaglianone"</h2>
+                        <p>2010 - 2014</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Secundario Finalizado </h2>
+                    </div>
+                </div>
+                <div class="container-educacion">
+                    <div class="content-izquierda">
+                        <h2>Universidad de Buenos Aires</h2>
+                        <p>2018 - 2022</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Título en Bachiller Universitario en Derecho</h2>
+                    </div>
+                </div>
+                <div class="container-educacion">
+                    <div class="content-izquierda">
+                        <h2>Universidad de Buenos Aires</h2>
+                        <p>2022 - act</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Abogacía - Ciclo Profesional Orientado (CPO)</h2>
+                        <p>Especialización en Derecho Privado en curso</p>
+                    </div>
+                </div>
+                <div class="container-educacion">
+                    <div class="content-izquierda">
+                        <h2>Argentina Programa 4.0</h2>
+                        <p>2022 - act</p>
+                    </div>
+                    <div class="content-derecha">
+                        <h2>Desarrollo Web</h2>
+                        <p>HTML, CSS, Javascript, Ruby</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+
+<footer>
+    <p><a href="mailto:tomasacouto97@hotmail.com">tomasacouto97@hotmail.com</a></p>
+</footer>
+
+</html>
